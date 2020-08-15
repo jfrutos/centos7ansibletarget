@@ -1,0 +1,10 @@
+
+[centos]
+
+[centos7]
+centos7-test ansible_connection=docker
+
+
+
+[centos:children]
+centos7
